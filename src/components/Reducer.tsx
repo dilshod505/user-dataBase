@@ -108,7 +108,7 @@ const Reducer = () => {
     {
       title: "Actions",
       key: "actions",
-      render: (_, record: any) => (
+      render: (_, record: StateType[0]) => (
         <>
           <Button type="link" onClick={() => openDrawer(record)}>
             <FaRegEdit />
